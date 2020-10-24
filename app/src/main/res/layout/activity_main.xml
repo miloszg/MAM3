@@ -82,7 +82,7 @@
                 android:id="@+id/speedText"
                 android:textAlignment="center"
                 android:layout_weight="0.5"
-                android:text="prędkość"
+                android:text="0.0 m/s"
                 android:textSize="20sp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
@@ -90,12 +90,26 @@
                 android:id="@+id/directionText"
                 android:textAlignment="center"
                 android:layout_weight="0.5"
-                android:text="jakis kierunek"
+                android:text="0.0"
                 android:textSize="20sp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
         </LinearLayout>
-
+        <TextView
+            android:textAlignment="center"
+            android:layout_weight="0.5"
+            android:text="Status GPS:"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/statusText"
+            android:textAlignment="center"
+            android:layout_weight="0.5"
+            android:text=""
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
 
     </LinearLayout>
 
